@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tentang_saya"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BABEC5"
+    tools:context=".TentangSaya">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tentang Saya"
+        android:layout_marginLeft="133dp"
+        android:textSize="13pt"
+        android:textColor="#F0EBEB"
+        android:fontFamily="cursive"
+        android:layout_marginTop="70px"/>
+    <TextView
+        android:id="@+id/txtview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tentang Saya"
+        android:gravity="center"
+        android:textSize="13pt"
+        android:textColor="#1D1A1A"
+        android:fontFamily="cursive"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70px"/>
+
+    <ImageView
+        android:id="@+id/imgfahmi"
+        android:layout_width="500px"
+        android:layout_height="500px"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/fahmi"/>
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgfahmi"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Fahmi Luthfi Fadillah"
+        android:textSize="8pt"
+        android:textColor="#1D1A1A"
+        android:fontFamily="cursive"/>
+    <TextView
+        android:id="@+id/kelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nama"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:text="XII - RPL 3"
+        android:textSize="8pt"
+        android:textColor="#1D1A1A"
+        android:fontFamily="cursive"/>
+    <TextView
+        android:id="@+id/sekolah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kelas"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:text="SMK Negeri 4 Bandung"
+        android:textSize="8pt"
+        android:textColor="#1D1A1A"
+        android:fontFamily="cursive"/>
+
+
+</RelativeLayout>

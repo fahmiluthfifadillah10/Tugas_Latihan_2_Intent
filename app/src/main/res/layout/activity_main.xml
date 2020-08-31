@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#3165DB"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IMPLICIT INTENT"
+        android:layout_marginLeft="90dp"
+        android:textSize="13pt"
+        android:textColor="#A7A7A7"
+        android:fontFamily="cursive"
+        android:layout_marginTop="70px"/>
+    <TextView
+        android:id="@+id/txtview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IMPLICIT INTENT"
+        android:gravity="center"
+        android:textSize="13pt"
+        android:textColor="#FFFFFF"
+        android:fontFamily="cursive"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70px"/>
+
+    <Button
+        android:id="@+id/btnweb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kunjungi Website Saya"
+        android:padding="10dp"
+        android:fontFamily="casual"
+        android:background="#0E37CE"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="5pt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/txtview"
+        android:onClick="web"/>
+
+    <Button
+        android:id="@+id/btntlp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Panggilan Telepon"
+        android:padding="10dp"
+        android:fontFamily="casual"
+        android:background="#0E37CE"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="5pt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/btnweb"
+        android:onClick="telepon"/>
+
+    <TextView
+        android:id="@+id/txtshdow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EXPLICIT INTENT"
+        android:layout_marginLeft="91dp"
+        android:textSize="13pt"
+        android:textColor="#A7A7A7"
+        android:fontFamily="cursive"
+        android:layout_marginTop="85px"
+        android:layout_below="@+id/btntlp"/>
+    <TextView
+        android:id="@+id/txtview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EXPLICIT INTENT"
+        android:gravity="center"
+        android:textSize="13pt"
+        android:textColor="#FFFFFF"
+        android:fontFamily="cursive"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90px"
+        android:layout_below="@+id/btntlp"/>
+    <Button
+        android:id="@+id/btntntng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tentang Saya"
+        android:padding="10dp"
+        android:fontFamily="casual"
+        android:background="#0E37CE"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="5pt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/txtshdow"
+        android:onClick="tentangsaya"/>
+
+</RelativeLayout>
